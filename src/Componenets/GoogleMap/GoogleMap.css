@@ -1,0 +1,50 @@
+.GoogleMapcontents{
+  position: relative;
+  padding: 100px 0px;
+}
+.ratio{
+  height: 450px;
+}
+.googleMap-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  z-index: 10;
+  text-align: center;
+}
+.googleMap-item{
+  width: calc(95%/3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+ 
+.googleMap-item h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.googleMap-item span{
+  font-size: 15px;
+  color: var(--green-btn);
+  font-weight: 700;
+}
+.googleMap-icons, .faPhone, .faLocation{
+ width: 60px;
+ color: var(--green-btn);
+ padding: 10px 0px;
+}
+ 
+
+@media screen and (max-width:1000px) {
+  .googleMap-description{
+    flex-direction: column;
+    width: 100%;
+  }
+  .googleMap-item{
+    width: 90%;
+    margin:10px auto;
+  }
+}
+

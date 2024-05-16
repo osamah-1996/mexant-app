@@ -1,0 +1,72 @@
+.carousel-inner{
+  height: 80vh !important;
+}
+.carousel-item{
+  position: relative !important;
+}
+.carousel-caption{
+  position: absolute !important;
+  top: 15%;
+  text-align: left !important;
+}
+.carousel-caption h5 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.0;
+  padding-bottom: 10px;
+}
+.carousel-caption h5 span{
+  color: var(--primary-text);
+}
+.carousel-caption p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.hero-undrline{
+  display: block;
+  width: 100px;
+  height: 4px;
+  border-radius: 25px;
+  background-color:var(--secondary-text) ;
+  margin: 35px 0px;
+}
+.homeHero-btn{
+  padding: 10px 30px !important;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  color: var(--secondary-text);
+  text-transform: capitalize;
+}
+.homeHero-btn-left{
+  background-color: var(--green-btn);
+  transition: 0.5s;
+}
+.homeHero-btn-left:hover{
+  background-color: var(--secondary-text);
+  color: var(--primary-text);
+}
+.homeHero-btn-right{
+  margin-left: 20px;
+  background-color: var(--primary-text);
+}
+.homeHero-btn-right:hover{
+  background-color: var(--secondary-text);
+  color: var(--primary-text);
+}
+@media screen and (max-width:1000px) {
+  .carousel-caption{
+    top: 8%;
+  }
+  .carousel-caption h5{
+    font-size: 50px;
+  }
+  .carousel-item img{
+    height: 100vh !important;
+  }
+}

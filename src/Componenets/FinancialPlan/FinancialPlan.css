@@ -1,0 +1,101 @@
+.FinancialPlan-wapper{
+  margin-bottom: 80px;
+  background-image: url("/src/assets//images/calculator-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 65vh !important;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+}
+.FinancialPlan-contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FinancialPlan-box img{
+  margin-top: -57px;
+}
+.FinancialPlan-box{
+  width: calc(90% /2);
+}
+.form-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  gap: 15px;
+}
+.FinnacialPlan-Header{
+  padding-top: 50px;
+}
+.FinnacialPlan-Header span{
+  padding-bottom: 30px !important;
+  font-weight: 700;
+}
+.form-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.financal-btn{
+  margin-top: 20px;
+  margin-left: -2px !important; 
+}
+.form-selction{
+  width: 100% !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+.form-selction .form-control{
+  background-color: #9e9d9daf !important;
+  border: 0 !important;
+  outline: 0 !important;
+  padding: 10px;
+}
+.option{
+  padding: 20px !important;
+  color: #eee !important;
+  font-size: 18px;
+  font-weight: 400;
+}
+.form-group input{
+  padding: 10px !important;
+  color: var(--secondary-text) !important;
+}
+.FinnacialPlan-Header h4{
+  color: var(--secondary-text);
+  padding: 10px 0px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.FinnacialPlan-Header span{
+  color: var(--primary-text);
+}
+form label{
+  color:#eee;
+  padding-bottom: 5px;
+}
+form input{
+  border: 0 !important;
+  outline: 0 !important;
+  background-color: #9e9d9daf !important;
+}
+form input:focus{
+  border: 1px solid var(--primary-text) !important;
+  outline: 0 !important;
+  border: 0 !important;
+}
+@media screen and (max-width:1000px) {
+  .FinancialPlan-contents{
+    flex-direction: column;
+  }
+  .FinancialPlan-wapper{
+    height: 60vh !important;
+  }
+  .FinancialPlan-box{
+    margin: auto;
+    width: 90%;
+  }
+  .FinancialPlan-box img{
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.aboutus-hero{
+  position: relative;
+  height: 70vh;
+  background-image: url("/src/assets/images/heading-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.aboutus-hero-contet{
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+}
+.aboutus-hero-contet h4{
+  color: var(--secondary-text);
+  font-size: 60px;
+  font-weight: 700;
+}
+.aboutus-hero-contet span{
+  display: block;
+  width: 80px;
+  height: 6px;
+  color: var(--secondary-text);
+  background-color: var(--secondary-text);
+  margin: 10px auto;
+  border-radius: 10px;
+}
+@media screen and (max-width:1000px) {
+  .aboutus-hero-contet h4{
+    font-size: 55px;
+  }
+  
+}

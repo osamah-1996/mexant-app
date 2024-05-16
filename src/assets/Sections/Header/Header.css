@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-bg:#212529;
+  --secondary-bg:#43BA7F;
+  --footer-bg:#21313f;
+  --primary-text:#FF511A;
+  --secondary-text:#fff;
+  --green-btn:#43BA7F;
+}
+.navbar{
+  position: fixed !important;
+  z-index: 10;
+  width: 100%;
+  background-color: var(--primary-bg) !important;
+}
+.navbar-content{
+  width: 80% !important;
+  margin: 0px auto !important;
+}
+.navbar-brand img{
+  height: 50px !important;
+}
+.navbar-nav .nav-item{
+  gap: 20px !important;
+  padding: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+  color: var(--secondary-text) !important;
+  padding: 10px;
+  gap: 15px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.navbar-nav .nav-item .spicial{
+  color: var(--primary-text) !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: var(--primary-text) !important;
+}
+#navbarDropdown::after {
+  margin-left: 10px !important;
+}
+#navbarDropdown::after:hover{
+  color: var(--secondary-text) !important;
+}
+.contact-button{
+  background-color: var(--secondary-bg);
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  color: var(--secondary-text);
+  border-radius: 10px;
+  margin-left: 15px !important;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.contact-button:hover{
+  background-color: var(--primary-text);
+}
+.nav-item .dropdown-menu{
+  margin-top: 8px !important;
+  width: 200px !important;
+  padding: 15px 0px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  transition: all 0.5s ease !important;
+}
+.nav-item .dropdown-menu .dropdown-item{
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.nav-item .dropdown-menu .dropdown-item:hover {
+  color: var(--primary-text);
+}
+.nav-item .dropdown-menu .dropdown-divider{
+  opacity: 0.2 !important;
+}
+.navbar-toggler-icon{
+  color: var(--secondary-text);
+}
+.navbar-toggler:focus{
+  border: none !important;
+  background-color: var(--primary-bg);
+}
+@media screen and (max-width:1000px) {
+  
+}

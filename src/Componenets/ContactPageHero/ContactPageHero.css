@@ -1,0 +1,32 @@
+.ContactPageHero-banner{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/src/assets/images/heading-bg.jpg");
+  height: 70vh;
+}
+.ContactPageHero-contents{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-text);
+}
+.ContactPageHero-contents h4{
+  font-size: 50px;
+  font-weight: 700;
+}
+.ContactPageHero-contents span{
+  display: block;
+  width: 70px;
+  height: 5px;
+  border-radius: 15px;
+  margin: 15px auto;
+  background-color: var(--secondary-text);
+}
+
+@media screen and (max-width:1000px) {
+  .ContactPageHero-contents h4{
+    font-size: 35px;
+  }
+}

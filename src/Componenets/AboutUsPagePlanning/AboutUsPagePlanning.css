@@ -1,0 +1,43 @@
+.AboutUsPagePlanning-warpper{
+  padding: 80px 0px;
+}
+.AboutPagePlanning-contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+.AboutPagePlanning-box-right{
+  padding: 60px 30px;
+  width: 50%;
+  height:60%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.accordion-header{
+  font-size: 500px !important;
+  height: 100%;
+  margin: 20px auto;
+}
+.accordion-header button{
+  font-size: 20px;
+  font-weight: 700;
+}
+.accordion-header button:focus{
+  color: var(--secondary-bg);
+}
+.accordion-body{
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 20px 20px !important;
+}
+@media screen and (max-width:1000px) {
+  .AboutPagePlanning-contents{
+    flex-direction: column;
+  }
+  .AboutPagePlanning-box-right{
+    width: 100%;
+    margin-top: 20px; 
+  }
+}

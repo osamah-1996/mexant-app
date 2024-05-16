@@ -1,0 +1,23 @@
+.OurServicePageHero-warpper{
+  position: relative;
+  background-image: url("/src/assets/images/heading-bg.jpg");
+  height: 70vh;
+}
+.OurServicePageHero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.OurServicePageHero-content h4{
+  color: var(--secondary-text);
+  font-size: 60px;
+  font-weight: 700;
+}
+.OurServicePageHero-content span{
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 4px;
+  background-color: var(--secondary-text);
+}

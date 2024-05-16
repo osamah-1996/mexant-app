@@ -1,0 +1,79 @@
+.ServiceUpgrade-header{
+  text-align: center;
+}
+
+.ServiceUpgrade-header span{
+  display: block;
+  color: var(--primary-text);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+.ServiceUpgrade-header h4{
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+.ServiceUpgrade-buttons{
+ text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.ServiceUpgrade-buttons button {
+  margin: 20px;
+  padding: 15px 40px;
+  border: 0;
+  outline: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.ServiceUpgrade-buttons  button:nth-child(2){
+  color: var(--primary-text) !important;
+}
+
+.ServiceUpgrade-inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 50px auto;
+  border-radius: 25px;
+  align-items: center;
+}
+.ServiceUpgrade-inner-box{
+  width: calc(100% /2);
+}
+.ServiceUpgrade-inner-box img{
+  border-radius: 10px;
+  width: 500px !important;
+}
+.ServiceUpgrade-inner-box h4{
+  font-size: 28px;
+  font-weight: 700;
+} 
+.ServiceUpgrade-inner-box p {
+  padding: 20px 0px;
+}
+.service-description h6{
+  padding: 10px 0px;
+  font-weight: 400;
+  font-style: italic;
+}
+@media screen and (max-width:1000px) {
+  .ServiceUpgrade-inner{
+    flex-direction: column;
+  }
+  .ServiceUpgrade-inner-box{
+    width: 100%;
+  }
+  .ServiceUpgrade-header h4{
+    font-size: 30px;
+  }
+  .ServiceUpgrade-inner-box img{
+    width: auto !important;
+  }
+}

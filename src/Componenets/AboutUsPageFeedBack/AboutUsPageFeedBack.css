@@ -1,0 +1,67 @@
+.AboutUsPageFeedBack-contents{
+  display: flex;
+  padding-bottom: 120px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.AboutUsPageFeedBack-box{
+  width: calc(95% /2);
+}
+.About-us-lef h4{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+  padding-bottom: 20px;
+}
+.About-us-lef > p{
+  padding: 15px 0px;
+} 
+.About-us-right-content{
+  margin-top: 20px;
+}
+.About-us-right-sub-box{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px 35px ;
+
+}
+.About-us-right-sub-box p{
+  margin-top: 10px;
+}
+
+.About-us-right-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.About-us-right-subheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+ 
+.About-us-right-subheader h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.About-us-right-subheader span{
+  color: var(--secondary-bg);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+@media screen and (max-width:1000px) {
+  .AboutUsPageFeedBack-contents{
+    flex-direction: column;
+  }
+  .AboutUsPageFeedBack-box{
+    width: 100%;
+  }
+  .About-us-right-content{
+    margin-top: 20px;
+  }
+}

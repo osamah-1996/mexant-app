@@ -1,0 +1,52 @@
+.HomeBuisnessSoluation-warpper{
+  margin: 100px 0px;
+  background-image: url('../../assets/images/cta-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.HomeBuisness-contents {
+  position: relative;
+  padding: 80px 0px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+  width: 100%;
+}
+.HomeBuisness-btns {
+  margin-top: 50px;
+}
+.HomeBuisness-text h4{
+  color: var(--secondary-text);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.span-green{
+  color: var(--secondary-bg);
+}
+.span-red{
+  color: var(--primary-text);
+}
+@media screen and (max-width:1000px) {
+  .HomeBuisness-contents{
+    text-align: center;
+    flex-direction: column;
+    margin-left: 5px !important;
+    padding: 50px 0px;
+    margin: auto;
+  } 
+  .HomeBuisness-text{
+    text-align: center !important;
+    display: inline-block;
+    margin-top: 50px !important;
+  }
+  .HomeBuisness-btns{
+    padding-left: 70px !important;
+    display: block;
+  } 
+}
